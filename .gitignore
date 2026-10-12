@@ -1,0 +1,24 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+blob-report/
+*.log
+.DS_Store
+.vercel/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+.pgdata/
+*.tsbuildinfo
+# Env files: only the committed, secret-free mode files and the example are tracked.
+.env
+.env.*
+!.env.example
+!.env.demo
+!.env.development
+# Never commit keys or local credentials
+*.pem
+*.key
+secrets/
